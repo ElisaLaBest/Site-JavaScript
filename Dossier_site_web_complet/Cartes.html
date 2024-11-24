@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Board Game</title>
+        <link rel="stylesheet" href="css.css">
+        <link rel="icon" type="images/png" href="images_photos/Logo2.png">
+    </head>
+
+    <body>
+
+<!--BANNIERE DU SITE-->
+        <div class="brand">
+            <article class="brand-container">
+                <div class="brand-logo">    
+                    <img src="images_photos/logo.png" alt="logo-Board-Game" width="100">
+                </div>
+                <div class="brand-title">    
+                        <h2>Board Game</h2>
+                        <link href="https://fonts.google.com/share?selection.family=Fredoka:wght@300..700" rel="stylesheet">
+                </div>
+            </article>
+        </div>
+<!--MENU DU SITE-->
+        <header>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">ACCUEIL</a></li>
+                    <li><a href="Cartes.html">CARTES</a></li>
+                    <li><a href="Inscription.html">INSCRIPTION</a></li>
+                    <li><button id="mode">Change mode</button></li>
+                    <li><link href="https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900" rel="stylesheet"></li>
+                </ul>
+            </nav>
+        </header>
+
+<!--TOUTES LES CARTES DU JEU-->
+        <div class="Présentation-cartes">
+            <article class="contenu-cartes">
+
+<!--CARTES ACTIONS-->
+                <!--Explication des cartes actions-->
+                <div class="cartes-action">
+                    <div class="div2">
+                        <h3>Les cartes action</h3>
+                        <p>Seulement 5 cartes action sont distribuées de façon aléatoire aux candidats. Elles doivent toutes être jouées pour définir la fin d'un tour. Ces cartes ont aussi un impacte sur le nombre de vote des joueurs, et peuvent aussi servir pour saboter ses adversaires.</p>
+                    </div>
+                    <!--Défilement des cartes actions-->
+                    <div class="defile">
+                        <div class="img-role"><img src="images_photos/Cartes/action1.png" alt="paparazzi" width="250">
+                            <p>Les cartes paparazzi sont bénéfiques ! Elles vous permettent de gagner des votes.</p>
+                        </div>
+                        <div class="img-role"><img src="images_photos/Cartes/action2.png" alt="fake-news" width="250">
+                            <p>Les cartes Fake News sont des armes. Elles vous permettent d'attaquer vos adversaires.</p>
+                        </div>
+                        <div class="img-role"><img src="images_photos/Cartes/action3.png" alt="prison" width="250">
+                            <p>La carte prison vous empêche de jouer. Vous passez donc votre tour.</p>
+                        </div>
+                        <div class="img-role"><img src="images_photos/Cartes/action4.png" alt="vole" width="250">
+                        <p>La carte vole vous autorise à voler une carte dans la main du candidat de votre choix.</p>
+                        </div>
+                        <div class="img-role"><img src="images_photos/Cartes/action5.png" alt="espionnage" width="250">
+                        <p>La carte espionnage vous donne le pouvoir de consulter la main du candidat de votre choix.</p>
+                        </div>
+                        <div class="img-role"><img src="images_photos/Cartes/action6.png" alt="dictature" width="250">
+                            <p>La carte dictature est puissante, vous devez voler un total de 10 votes parmi ceux de vos adversaires.</p>
+                        </div>
+                    </div>
+                </div>
+
+<!--CARTES EVENEMENT-->
+                <!--Explication des cartes événement-->
+                <div class="cartes-événement">
+                    <div class="div2">
+                        <h3>Les cartes événement</h3>
+                        <p>Les cartes événements sont retounées seulement au début de chaque phase. Elles ont une grande influence sur le destin des joueurs et peut parfois même retourner la situation.</p>
+                    </div>
+                    <!--Défilement des cartes événements-->
+                    <div class="defile">
+
+                        <div class="img-role"><img src="images_photos/Cartes/event1.png" alt="police" width="250">
+                            <p>Le candidat qui retourne cette carte ne peut plus poser de cartes durant le tour.</p>
+                        </div>
+
+                        <div class="img-role"><img src="images_photos/Cartes/event2.png" alt="black-blocs" width="250">
+                            <p>Le candidat qui retourne cette carte ne gagne plus de voix durant le tour de jeu.</p>
+                        </div>
+
+                        <div class="img-role"><img src="images_photos/Cartes/event3.png" alt="aigriculteurs" width="250">
+                        <p>Tous les candidats perdent 2 voix, à l'exception du candidat qui a pioché cette carte.</p>
+                        </div>
+
+                        <div class="img-role"><img src="images_photos/Cartes/event4.png" alt="gilets-jaune" width="250">
+                        <p>Le tour n'est pas compté, il faut redistribuer les cartes.</p>
+                        </div>
+
+                        <div class="img-role"><img src="images_photos/Cartes/event5.png" alt="quarante-neuf-trois" width="250">
+                        <p>Inutile d'attendre plus longtemps, le candidat possèdant le moins de voix devient élécteur.</p>
+                        </div>
+
+                        <div class="img-role"><img src="images_photos/Cartes/event6.png" alt="inflation" width="250">
+                        <p>Cette carte s'adresse à tous les candidats. La valeur des votes gagnées sera divisée par 2.</p>
+                        </div>
+
+                        <div class="img-role"><img src="images_photos/Cartes/event7.png" alt="feministes" width="250">
+                        <p>Les candidates de la partie remportent une voix (oui c'est injuste).</p>
+                        </div>
+
+                        <div class="img-role"><img src="images_photos/Cartes/event8.png" alt="ecologiste" width="250">
+                        <p>Cette carte s'adresse à tous les candidats, au lieu de jouer 1 action il faut en faire 2.</p>
+                        </div>
+
+                        <div class="img-role"><img src="images_photos/Cartes/event9.png" alt="lgbt" width="250">
+                        <p>Cette carte concerne tous les candidats qui doivent commencer la phase avec le même nombre de vote que le candidat qui en a le moins.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+<!--CARTES ROLE-->
+                <!--Explication des cartes rôle-->
+                <div class="cartes-rôle">
+                    <div class="div1">
+                        <h3>Les cartes rôle</h3>
+                        <p>Les cartes rôle correspondent aux personnages qu'incarnera chaque joueur. Elles sont piochées de façon aléatoire. Les cartes rôle possèdent chacune un certain pouvoir contre les évènements.</p>
+                    </div>
+                    <!--Défilement des cartes rôle-->
+                    <div class="defile">
+
+                            <div class="img-role"><img src="images_photos/Cartes/Cartes-role1.png" alt="valery-pakredible" width="250">
+                            <p>Valéry Pakrédible est neutre. Elle ne possède pas de pouvoir particulier.</p>
+                            </div>
+
+                            <div class="img-role"><img src="images_photos/Cartes/Cartes-role6.png" alt="ronchon-lemonchon" width="250">
+                                <p>Ronchon Lemonchon est gauchard. Il n'est pas touché par la carte Black Blocs.</p>
+                            </div>
+
+                            <div class="img-role"><img src="images_photos/Cartes/Cartes-role7.png" alt="jean-lagnaule" width="250">
+                                <p>Jean Lagnaule est gauchard. Il est immunisé face à la carte des aigriculteurs.</p>
+                            </div>
+
+                            <div class="img-role"><img src="images_photos/Cartes/Cartes-role4.png" alt="anne-navigo" width="250">
+                            <p>Anne Navigo est gauchard. La cartes transport ne l'affecte pas.</p>
+                            </div>
+
+                            <div class="img-role"><img src="images_photos/Cartes/Cartes-role2.png" alt="marine-lapaire" width="250">
+                            <p>Marine LaPaire est droitard. La police ne l'atteind pas.</p>
+                            </div>
+
+                            <div class="img-role"><img src="images_photos/Cartes/Cartes-role3.png" alt="eric-smarties" width="250">
+                                <p>Eric Smarties est droitard. Il est immunisé face à la carte inflation.</p>
+                            </div>
+
+                            <div class="img-role"><img src="images_photos/Cartes/Cartes-role5.png" alt="elis-aveugle" width="250">
+                            <p>Elis'Aveugle est droitard. Elle n'est malheureusement pas affectée par la carte 49/3.</p>
+                            </div>   
+                    </div>
+                </div>
+            </article>
+        </div>
+        <footer>
+            <div class="container-footer">
+                <div class="footer-colum1">
+                    <h3>Remerciements</h3>
+                    <p>Je tiens à remercier mon équipe, composée de Benjamin TAILLEFER, James CHEVAL et Maxym MELNYCHUK pour la réalisation de ce projet.</p>
+                    <link href="https://fonts.google.com/share?selection.family=Fredoka:wght@300..700" rel="stylesheet">
+                </div>
+                <div class="footer-colum2">
+                    <h3>Contactez-nous !</h3>
+                    <p>Numéro de téléphone : 00.00.00.00.00</p>
+                    <p>Adresse-mail : elisa.tieghem@edu.devinci.fr</p>
+                </div>
+                <div class="footer-colum3">
+                    <h3>Rejoins-nous sur les réseaux</h3>
+                    <a href="">Facebook</a>
+                    <a href="">Twitter</a>
+                    <a href="">Instagram</a>
+                    <a href="">LinkedIn</a>
+                </div>
+        
+            </div>
+        
+        </footer>
+
+<!--Lien avec le fichier JavaScript-->        
+        <script src="main.js"></script>
+
+    </body>
+</html>

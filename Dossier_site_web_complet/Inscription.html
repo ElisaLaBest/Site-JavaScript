@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Board Game</title>
+        <link rel="stylesheet" href="css.css">
+        <link rel="icon" type="images/png" href="images_photos/Logo2.png">
+    </head>
+
+    <body>
+<!--BANNIERE DU SITE-->
+        <div class="brand">
+            <article class="brand-container">
+                <div class="brand-logo">    
+                    <img src="images_photos/logo.png" alt="logo-Board-Game" width="100">
+                </div>
+                <div class="brand-title">    
+                        <h2>Board Game</h2>
+                        <link href="https://fonts.google.com/share?selection.family=Fredoka:wght@300..700" rel="stylesheet">
+                </div>
+            </article>
+        </div>
+<!--MENU DU SITE-->
+        <header>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">ACCUEIL</a></li>
+                    <li><a href="Cartes.html">CARTES</a></li>
+                    <li><a href="Inscription.html">INSCRIPTION</a></li>
+                    <li><button id="mode">Change mode</button></li>
+                    <li><link href="https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900" rel="stylesheet"></li>
+                </ul>
+            </nav>
+        </header>
+<!--FORMULAIRE D'INSCRIPTION-->
+        <div class="formulaire">
+            <form action="" method="post" enctype="multipart/form-data">
+                <h3>Formulaire d'inscription</h3>
+                <p>Inscrivez-vous si vous souhaitez jouer au jeu.</p>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+        
+                <div>
+                    <label for="password">Mot de passe</label>
+                    <input type="password" name="password" id="password">
+                </div>
+            
+                <div>
+                    <label for="password2">Entrer à nouveau le mot de passe</label>
+                    <input type="password" name="password2" id="password2">
+                </div>
+
+                <p>Pourquoi je m'inscris ?</p>
+                <select name="cours" id="">
+                    <option value="Créer">Créer des jeux de plateforme</option>
+                    <option value="Jouer">Jouer aux jeux</option>
+                    <option value="Commenter">Commenter les jeux</option>
+                </select>
+
+                <p>Je suis :</P>
+                <div>
+                    <input type="radio" name="genre" id="F" value="F">
+                    <label for="F">Femme</label>
+                </div>
+        
+                <div>
+                    <input type="radio" name="genre" id="H" value="H">
+                    <label for="H">Homme</label>
+                </div>
+        
+                <label for="story">Commentaire sur le site :</label>
+                <textarea id="story" name="story" rows="5" cols="33">
+                    ...
+                </textarea>
+        
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+
+<!--FOOTER DU SITE-->
+        <footer>
+            <div class="container-footer">
+                <div class="footer-colum1">
+                    <h3>Remerciements</h3>
+                    <p>Je tiens à remercier mon équipe, composée de Benjamin TAILLEFER, James CHEVAL et Maxym MELNYCHUK pour la réalisation de ce projet.</p>
+                    <link href="https://fonts.google.com/share?selection.family=Fredoka:wght@300..700" rel="stylesheet">
+                </div>
+                <div class="footer-colum2">
+                    <h3>Contactez-nous !</h3>
+                    <p>Numéro de téléphone : 00.00.00.00.00</p>
+                    <p>Adresse-mail : elisa.tieghem@edu.devinci.fr</p>
+                </div>
+                <div class="footer-colum3">
+                    <h3>Rejoins-nous sur les réseaux</h3>
+                    <a href="">Facebook</a>
+                    <a href="">Twitter</a>
+                    <a href="">Instagram</a>
+                    <a href="">LinkedIn</a>
+                </div>
+            </div>
+            
+        </footer>
+
+<!--Lien avec le fichier JavaScript-->
+        <script src="main.js"></script>
+
+    </body>
+</html>

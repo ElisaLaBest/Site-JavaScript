@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Board Game</title>
+        <link rel="stylesheet" href="css.css">
+        <link rel="icon" type="images/png" href="images_photos/Logo2.png">
+    </head>
+
+    <body>
+        
+<!--BANNIERE DU SITE-->
+        <div class="brand">
+            <article class="brand-container">
+                <div class="brand-logo">    
+                    <img src="images_photos/logo.png" alt="logo-Board-Game" width="100">
+                </div>
+                <div class="brand-title">    
+                        <h2>Board Game</h2>
+                        <link href="https://fonts.google.com/share?selection.family=Fredoka:wght@300..700" rel="stylesheet">
+                </div>
+            </article>
+        </div>
+<!--MENU DU SITE-->
+        <header>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">ACCUEIL</a></li>
+                    <li><a href="Cartes.html">CARTES</a></li>
+                    <li><a href="Inscription.html">INSCRIPTION</a></li>
+                    <li><button id="mode">Change mode</button></li>
+                    <li><link href="https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900" rel="stylesheet"></li>
+                </ul>
+            </nav>
+        </header>
+    
+<!--BLOC 1 : Présentation jeu-->
+        <main>
+            <div class="présentation-jeu">
+                <article class="bloc1">
+                    <div class="présentation-text">
+                        <h3>L'arrêt Publique, c'est moi !</h3>
+                        <p>L'arrêt Publique, c'est moi ! est un jeu de société ayant pour thème la politique. </p>
+                        <p> Qui n’a jamais rêvé de devenir président ? Aujourd’hui sera peut-être votre jour de chance ! Vous aurez l’occasion de participer aux élections présidentielles. 
+                            Pour remporter la partie, obtenez le plus de votes pour rester dans la course, et peut-être bien devenir président. </p>
+                        <link href="https://fonts.google.com/share?selection.family=Afacad+Flux:wght@100..1000" rel="stylesheet">                                
+                    </div>
+                    <div class="img_jeu">                
+                        <img src="images_photos/L'arret_publique.png" alt="L'arrêt publique, c'est moi" width="300">                
+                    </div>
+                </article>
+            </div>
+
+    <!--Deuxième, troisième et quatrième blocs : Détails du jeu-->
+
+<!--BLOC 2 et BLOC 3 : Matériel du jeu-->            
+            <div class="infos-jeu">
+                  
+                <div class="L'arrêt-publique">
+                    <article class="contenu-jeu">
+
+                        <div class="bloc2">
+                            <h3>Plateau du jeu</h3>
+                                <img src="images_photos/Plateau.png" alt="Plateau" width="250">
+                                <p>Le plateau est divisé en 4 phases : Campagne dans le parti, Election dans le parti, Campagne dans la pas et Election Présidentielle</p>
+                        </div>
+
+                        <div class="bloc3">
+                            <h3>Pions et jetons du jeu</h3>
+                                <img src="images_photos/Jetons.png" alt="Jetons" width="300">
+                                <p>Les enveloppes se trouvant dans l'urne correspondent à des votes. Pour passer chaque phase et remporter la partie, il faut en avoir plus que ses adversaires</p>
+                        </div>
+                    </article>
+                </div>
+
+<!--BLOC 4 : Règles du jeu-->        
+                <div class="bloc4">     
+                    <h3>Règles du jeu</h3>
+                        <h4>Déroulement de la partie :</h4>
+                        <h5>Nombre de joueurs : 3-7 </h5>    
+                        <p>Le plateau principal est divisé en 4 phases, il permet de suivre l’avancée du jeu. Parmi ces phases, les phases : “Campagne dans le parti”, et “Election dans le parti”, sont associées aux cartes “parti” de couleur bleu ; les phases “Campagne dans le pays”, et “Election présidentielle”, correspondent aux cartes “présidentielle” de couleur rouge. Pour devenir président, il vous faudra franchir chaque phase en remportant un nombre plus important de vote que vos adversaires. Si vous faites partie des joueurs ayant obtenue le moins de vote, vous n’êtes plus candidat, et devenez électeur. Pour inverser les rôles, retournez votre carte “rôle” pour passer en mode électeur.  (Voir la partie “fin du tour” pour plus d’informations)</p>     
+                        <h4>Début du jeu</h4>     
+                        <p>Pour commencer, chaque joueur doit se munir d'un certains nombres de votes. Honneur au plus jeune de la table. Au début de chaque phase, 5 cartes bleues ou rouges seront distribuées face cachée et de façon aléatoire aux joueurs. Les cartes bleues ou rouges sont divisées en 2 tas, correspondant chacun aux phases qui leur sont associés.</p> 
+                        <h5>Durant une phase :</h5>
+                        <p>Le jeu suit le sens des aiguilles d’une montre, et chaque joueur aura droit à une action uniquement. En fonction de ses cartes, le joueur a soit la possibilité de jouer pour lui, soit pour autre candidat. Posez donc la carte en face du joueur qu’elle affecte. Au début d’une nouvelle phase, une carte “évènements” devra être retournée.</p> 
+                        <h5>Fin d'une phase :</h5>
+                        <p>La fin d’une phase se fait lorsque qu’il n’y a plus de carte dans la main des joueurs. Le dernier joueur possédant encore des cartes n’a plus la possibilité de jouer, il doit alors poser ses cartes dans sa fosse et s’attribuer 1 vote par carte. A la fin d’une phase, les joueurs ayant obtenue le plus de vote reste candidat et passe au niveau supérieur, tandis que les joueurs se trouvant avec le moins de vote deviennent électeurs.</p> 
+                        <h5>Pour une partie de 3 à 5 joueurs :</h5> 
+                        <p>Il n’y a pas d’élimination lors des 3 premières phases. A la dernière phase, il ne doit rester que les 2 meilleurs candidats. Les autres deviennent électeurs.</p>       
+                        <h5>Pour une partie de 6 à 7 joueurs :</h5> 
+                        <p>Il ne doit rester que 5 joueurs à la seconde phase, 3 à la troisième phase et 2 à la dernière.</p> 
+                        <p>En cas d’égalité du nombre de votes final : Les joueurs doivent récupérer leur fausse située devant eux pour la mélanger face cachée, et piocher la première carte de la pile qui définira la somme totale des votes remportés durant la partie.
+                                Si le joueur tombe sur une carte qui lui ajoute ou enlève des votes, il gagne ou perd la valeur indiquée. 
+                                Si le joueur tombe sur une autre carte la valeur reste nulle. </p>
+                        <link href="https://fonts.google.com/share?selection.family=Fredoka:wght@300..700" rel="stylesheet">
+                </div>
+            </div>
+
+<!--Lien direct pour jouer au jeu sur Tabletopia-->
+            <div class="tabletopia">
+                <a href="https://tabletopia.com/games/chaolitique-nfhi3b/play-now">Testez le jeu sur Tabletopia !</a>
+            </div>
+        </main>
+
+<!--FOOTER DU SITE-->
+        <footer>
+            <div class="container-footer">
+                <div class="footer-colum1">
+                    <h3>Remerciements</h3>
+                    <p>Je tiens à remercier mon équipe, composée de Benjamin TAILLEFER, James CHEVAL et Maxym MELNYCHUK pour la réalisation de ce projet.</p>
+                    <link href="https://fonts.google.com/share?selection.family=Fredoka:wght@300..700" rel="stylesheet">
+                </div>
+                <div class="footer-colum2">
+                    <h3>Contactez-nous !</h3>
+                    <p>Numéro de téléphone : 00.00.00.00.00</p>
+                    <p>Adresse-mail : elisa.tieghem@edu.devinci.fr</p>
+                </div>
+                <div class="footer-colum3">
+                    <h3>Rejoins-nous sur les réseaux</h3>
+                    <a href="">Facebook</a>
+                    <a href="">Twitter</a>
+                    <a href="">Instagram</a>
+                    <a href="">LinkedIn</a>
+                </div>
+            </div>
+            
+        </footer>
+<!--Lien avec le fichier JavaScript-->
+        <script src="main1.js"></script>
+    </body>
+</html>

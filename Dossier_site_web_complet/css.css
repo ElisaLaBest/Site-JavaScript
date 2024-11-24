@@ -1,0 +1,320 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: rgb(189, 175, 175);
+}
+
+/**BANNIERE DU SITE**/
+.brand-container{
+    display:flex;
+}
+.brand-logo{
+    width: 10%;
+    background-color: rgb(20, 48, 48);
+    padding:20px;  
+}
+.brand-title{
+    width:92%;
+    background-color: rgb(20, 48, 48);
+}
+h2{
+    font-family:'Fredoka', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+@media screen and (max-width:800px){
+    .brand-logo{
+        width:50%
+    }
+}
+
+/**MENU DU SITE**/
+header{
+    background-color: rgb(69, 27, 109);
+    height:80px;
+    width:100%;
+    padding:1%;
+    filter: drop-shadow(0 6mm 4mm rgb(99, 99, 99));
+}
+
+@media screen and (max-width:800px){
+    .header{
+        height:20%;
+        width:100%
+    }
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-bottom:-100px;
+}
+li a{
+     color:white;
+     text-decoration: none;
+     text-align:right;
+     font-family:'Roboto', sans-serif;
+}
+li a:hover{
+    color:aqua;
+}
+.menu li{
+    padding: 35px;
+}
+.menu li form{
+    text-align:right;
+    display: inline-block;
+}
+
+/**PREMIERE PAGE DU SITE**/
+/**BLOC 1**/
+.présentation-jeu{
+    width:90%;
+    background-color: rgb(205, 205, 205);
+    color:rgb(59, 59, 59);
+    font-family: 'Afacad Flux', sans-serif;
+    padding: 30px;
+    padding-bottom:50px;
+    margin:40px;
+    text-align:left;
+}
+.bloc1{
+    display:flex;
+    justify-content:space-evenly;
+    color:rgb(59, 59, 59);
+}
+.présentation-text{
+    padding:30px;
+}
+
+@media screen and (max-width:800px){
+    .présentation-jeu{
+        width:100%;
+        padding-left:0%;
+        margin-left:0%;
+    }
+    .bloc1{
+        display:flex;
+        flex-direction:column;
+    }
+}
+
+/**BLOC 2 et BLOC 3**/
+.infos-jeu{
+    display:flex;
+    flex-direction: row;
+}
+.contenu-jeu{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Afacad Flux', sans-serif;
+    color:white;
+    margin-bottom:100px;
+    margin-left:40px;
+}
+.bloc2{
+    width:400px;
+    height:470px;
+    background-color: rgb(145, 145, 145);
+    padding: 50px;
+    color:rgb(59, 59, 59);
+}
+.bloc3{
+    width:400px;
+    height:350px;
+    background-color: rgb(145, 145, 145);
+    padding: 50px;
+    color:rgb(59, 59, 59);
+}
+
+@media screen and (max-width:800px){
+    .infos-jeu{
+        display:flex;
+        flex-direction:column;
+        width:85%;
+    }
+    .contenu-jeu{
+        margin-left:0%;
+    }
+    .bloc2{
+        width:100%;
+        padding-left:30%;
+    }
+    .bloc3{
+        width:100%;
+        padding-left:30%;
+    }
+}
+
+/**BLOC 4**/
+.bloc4{
+    width:830px;
+    background-color: rgb(205, 205, 205);
+    padding: 50px;
+    color:rgb(59, 59, 59);
+    max-height:830px;
+    display:flex;
+    flex-direction: column;
+    overflow: auto;
+    font-family:'Fredoka', sans-serif;
+}
+
+@media screen and (max-width:800px){
+    .bloc4{
+        width:100%;
+    }
+}    
+
+
+/**TABLETOPIA**/
+.tabletopia{
+    text-align:center;
+    margin-bottom:70px;
+}
+
+/**FOOTER**/
+.container-footer{
+    display: flex;
+    flex-direction:row;
+    color:white;
+    height:300px;
+    background-color:rgb(26, 57, 57);
+    font-family:'Fredoka', sans-serif;
+    filter: drop-shadow(0 -6mm 4mm rgb(99, 99, 99));
+}
+.footer-colum1{
+    width:50%;   
+    padding:40px;
+    padding-left:30px;
+}
+.footer-colum2{
+    width:25%;
+    padding:40px;
+}
+.footer-colum3{
+    width:25%;
+    padding:40px;
+}
+
+@media screen and (max-width:800px){
+    .container-footer{
+        display:flex;
+        flex-direction:column;
+        height:80%;
+        width:100%;
+    }
+}
+
+/**DEUXIEME PAGE DU SITE**/
+.contenu-cartes{
+    margin-top:20px;
+    padding:20px;
+    justify-content: space-evenly;
+    font-family:'Roboto', sans-serif;
+    color:rgb(59, 59, 59);
+}
+.cartes-action{
+    background-color:rgb(205, 205, 205);
+    padding:20px;
+    margin: 50px;
+}
+.cartes-événement{
+    background-color: rgb(205, 205, 205);
+    padding:20px;
+    margin: 50px;
+}
+.cartes-rôle{
+    background-color: rgb(205, 205, 205);
+    padding:20px;
+    margin: 50px;
+}
+.defile{
+    max-height:500px;
+    display:flex;
+    overflow-x:auto;
+}
+.defile .img-role{
+    margin: 40px;
+}
+
+@media screen and (max-width:800px){
+    .contenu-cartes{
+        width:100%;
+        margin-left:0%;
+    }
+    .cartes-action{
+        margin:0%;
+    }
+    .cartes-événement{
+        margin:0%;
+    }
+    .cartes-rôle{
+        margin:0%;
+    }
+}
+*{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 0;
+}
+.formulaire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    border: 1px solid rgba(153, 153, 153, 0.6);
+    padding: 100px;
+    background-color:rgb(205, 205, 205);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+form>div{
+    margin: 30px 20px;
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+input{
+    height: 20px;
+    width: 40%;
+}
+button{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding: 10px 32px;
+    cursor: pointer;
+}
+select{
+    margin-top: 20px;
+    margin-bottom:40px;
+}
+.message-error{
+    border: 1px solid rgba(212, 42, 0, 1);
+    color: rgb(212, 42,0);
+    background-color:rgba(212, 42, 0, 0.4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+}
+.message-success{
+    border: 1px solid rgb(81, 150, 2);
+    color: rgb(81, 150, 2);
+    background-color:rgba(113, 212, 0, 0.4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+}
+.success {
+    border: 1px solid rgb(81, 150, 2);
+    background-color:rgba(113, 212, 0, 0.4);
+}
+.message-error.visible {
+    display: block;
+}
+
+
+
